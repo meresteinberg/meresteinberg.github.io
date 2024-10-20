@@ -1,0 +1,13 @@
+---
+title: "About this website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Information about this website
+
+this website was made as an example in [P8105](https://p8105.com/index.html) for "making websites". I'm making an Rmd and will use github for hosting.
+
+You can go [home](index.html)
