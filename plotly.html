@@ -11,7 +11,7 @@
 
 
 
-<title>Plots</title>
+<title>Plotly</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -330,9 +330,6 @@ div.tocify {
   <a href="plots.html">Plots</a>
 </li>
 <li>
-  <a href="plotly.html">Plotly</a>
-</li>
-<li>
   <a href="mailto:&lt;you@youremail.com&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
@@ -353,25 +350,14 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Plots</h1>
+<h1 class="title toc-ignore">Plotly</h1>
 
 </div>
 
 
 <div id="here-are-some-plots" class="section level1">
 <h1>Here are some plots</h1>
-<p>You can make plots in the same way as always.</p>
-<pre class="r"><code>library(tidyverse)
-
-df=tibble(
-  x=rnorm(100, 2, 5),
-  y=1 + 2 * x -.5 * x^2 + rnorm(100)
-)
-
-df |&gt; 
-  ggplot(aes(x=x, y=y)) +
-  geom_point()</code></pre>
-<p><img src="plots_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>today we are making interactive plots in plotly.</p>
 </div>
 
 
