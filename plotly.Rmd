@@ -71,3 +71,14 @@ nyc_airbnb |>
   )
 ```
 
+```{r}
+plot_ly(
+  z=volcano, type = "heatmap"
+)
+```
+
+Look at plotly cheatsheat.. e.g., chloropleth
+
+
+
+
